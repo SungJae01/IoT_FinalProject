@@ -78,10 +78,10 @@ AsyncResult aResult_no_callback;
 /* --- Firebase Setup --- */
 
 /* 변수 */
-  int temperature;      //온도  
-  int humidity;         //습도
-  float soilMoisture;     //토양 습도
-  float water_gauge;       //초음파
+  int temperature;          //온도  
+  int humidity;             //습도
+  float soilMoisture;       //토양 습도
+  float water_gauge;        //초음파
 
 
 /* 변수 */
@@ -116,9 +116,6 @@ void setup() {
   pinMode(HUMIDIFIER, OUTPUT);
   pinMode(WATERPUMP, OUTPUT);
 /* --- Actuator Setup --- */
-
-
-
 
 }
 
@@ -164,39 +161,6 @@ void loop() {
     if(soilMoisture > 760){
         onWaterPump();
     }
-    
-
-
-    // onLed();
-    // onFan();
-    // onHeater();
-    // onHumidifier();
-    // //센서값 데이터베이스에 저장
-    // setWaterTankValue();
-    // Serial.println("---------------------------");
-    // Serial.println("");
-
-
-    // Serial.println("--------실시간 센서 값--------");
-    // humidity = getHumidity();
-    // temperature = getTemperature();
-    // soilMoisture = getSoilMoisture();
-    // water_gauge = getWaterTankValue();
-    // Serial.println("---------------------------");
-    // Serial.println("");
-
-
-    // Serial.println("--------모바일 설정 값--------");
-    // Serial.println(get_moblie_humidity());
-    // Serial.println(get_moblie_temp());
-    // Serial.println("---------------------------");
-    // Serial.println("");
-    // delay(1000);
-
-    // offLed();
-    // offFan();
-    // offHeater();
-    // //offHumidifier();
 }
 
 
@@ -333,49 +297,6 @@ float getWaterTankValue(){
   return db_WaterTankValue;
 }
 
-// // 모바일에서 설정한 습도 값 (조건문 안에 들어가는)
-// float get_moblie_humidity(){
-
-//     Serial.print("Get target humidity... ");
-//   float db_target_humidity = Database.get<double>(aClient, "/target_humidity");
-//   if (aClient.lastError().code() == 0)
-//     Serial.print("");
-//   else
-//     printError(aClient.lastError().code(), aClient.lastError().message());
-
-//   return db_target_humidity;
-// }
-
-// // 모바일에서 설정한 온도 값 (조건문 안에 들어가는)
-// float get_moblie_temp(){
-
-//     Serial.print("Get target temp... ");
-//   float db_target_temp = Database.get<double>(aClient, "/target_temp");
-//   if (aClient.lastError().code() == 0)
-//     Serial.print("");
-//   else
-//     printError(aClient.lastError().code(), aClient.lastError().message());
-
-//   return db_target_temp;
-// }
-
-// float getSetTime(num){
-//   int setTime[] = [a, b];
-  
-//   setTime[0] = ~~~  //켜지는 시간
-//   setTime[1] = ~~~  // 꺼지는 시간
-//   if(num == 0){
-//     return setTime[0];
-//   }else if(num == 1){
-//     return setTime[1];
-//   }
-// }
-
-// void currentTime(){
-//   // wifi 현재 시간
-//   return currentTime;
-// }
-
 void onLed(){
   //digitalWrite (RELAY_Led, HIGH);
   // LED 켜기 (릴레이 HIGH)
@@ -466,10 +387,6 @@ void onWaterPump(){
   delay(1000);
   digitalWrite (WATERPUMP, LOW);
 }
-
-
-//센서값에 의존하지 않고 모바일에서 요청하면 엑츄에이터를 작동시키는 함수들 작성
-
 
 // 와이파이, 데이터베이스 연결 및 에러 코드 출력 함수
 void connectWifi(){
