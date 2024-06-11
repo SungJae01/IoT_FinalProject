@@ -86,6 +86,9 @@
 
 ## **제작 사진**
 
+![IMG_0853](https://github.com/SungJae01/IoT_FinalProject/assets/88194064/9e5932b3-1c1e-467c-9174-f77b94fced6e)
+
+
 **토양에 수분을 공급하기 위한 테프론 튜브배치**
 
 ![IMG_0036](https://github.com/SungJae01/IoT_FinalProject/assets/88194064/769b122d-2ba2-4e33-81b7-97c8625901a2)
