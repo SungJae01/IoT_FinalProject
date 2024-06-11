@@ -27,7 +27,8 @@
 | H/W      | 사육장 환경을 조절 및 관리           | UVB램프, 초음파 가습기, 팬, LED조명을 사용하여 조절 및 관리  |
 | S/W      | 실시간 모니터링 및 환경을 조성, 관리 | 스마트폰 어플을 사용하여 사육장을 실시간 모니터링 및 환경을 조성, 관리 |
 
-![img](https://lh7-us.googleusercontent.com/dcxT2qMCgm3q0nR3fmT47C3lHsaEdL-Rx1bPsmoYjlAnyGroXoT0Ea9W22XrNy-Jnoocv5JI9b21UynbrZlnHfAfnARUGO3uHmRDB6OnEpa5Y6L1vcA0NEZzEjT39BzwzIpne6BYb5G39lZBW0CpQA)
+![스크린샷 2024-06-10 오후 1 46 39](https://github.com/SungJae01/IoT_FinalProject/assets/88194064/ffa54331-eceb-4929-8e54-db42820d9cf2)
+
 
  **3. 최소 기능 제품/서비스** 
 
