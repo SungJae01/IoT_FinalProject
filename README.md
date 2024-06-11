@@ -55,9 +55,9 @@
 
 
 
-**2024.06.11 (화) 작품 완성**
+##**2024.06.11 (화) 작품 완성**
 
-1차, 2차 물품 구매를 마치고 필요한 물품을 마트에서 더 구매
+**1차, 2차 물품 구매를 마치고 필요한 물품을 마트에서 더 구매**
 
 ![4CF30B5F-52EA-43E1-AC4E-99E53EB11B36](https://github.com/SungJae01/IoT_FinalProject/assets/88194064/ff19ae9b-6703-4bc1-8b59-6ad5199e89f7)
 
@@ -66,56 +66,60 @@
 
  사육장 코너에서 더 꾸미고싶어서 산 물품들
 
-**제작 사진**
+##**제작 사진**
 
-토양에 수분을 공급하기 위한 테프론 튜브배치
+**토양에 수분을 공급하기 위한 테프론 튜브배치**
 
 ![IMG_0036](https://github.com/SungJae01/IoT_FinalProject/assets/88194064/769b122d-2ba2-4e33-81b7-97c8625901a2)
 
 
-토양 수분 공급과 물컵 물공급을 위한 물탱크의 워터펌프 2개 부착
+**토양 수분 공급과 물컵 물공급을 위한 물탱크의 워터펌프 2개 부착**
 
 ![IMG_0054](https://github.com/SungJae01/IoT_FinalProject/assets/88194064/a87eb619-8275-492e-b0a1-12d6c0426885)
 
 
-워터펌프와 PTC 히터를 사육장에 부착
+**워터펌프와 PTC 히터를 사육장에 부착**
 
 ![AA704C89-0CD8-4A5C-AA7D-275FC766D89B](https://github.com/SungJae01/IoT_FinalProject/assets/88194064/1d683707-cd5f-45cb-8b1b-fdf674c450c4)
 
 
-물탱크의 물양을 측정하기 위한 초음파 센서를 물탱크 뚜껑에 부착
+**물탱크의 물양을 측정하기 위한 초음파 센서를 물탱크 뚜껑에 부착**
 
 ![IMG_0068](https://github.com/SungJae01/IoT_FinalProject/assets/88194064/dc34cbc1-e593-4d21-ad4c-0fb869d740c5)
 
 
-물컵의 양을 측정하기 위한 수위센서 부착
+**물컵의 양을 측정하기 위한 수위센서 부착**
 
 ![IMG_0056](https://github.com/SungJae01/IoT_FinalProject/assets/88194064/f525e738-7660-41a1-9e86-304c16dfc49f)
 
 
-사육장 뚜껑을 CAD를 사용하여 설계 및 아크릴판 가공
+**사육장 뚜껑을 CAD를 사용하여 설계 및 아크릴판 가공**
 
 ![KakaoTalk_Photo_2024-06-12-01-12-58](https://github.com/SungJae01/IoT_FinalProject/assets/88194064/e1dddd7b-fa8f-43db-8b0b-340732716d6a)
 
 ![KakaoTalk_Photo_2024-06-12-01-12-45](https://github.com/SungJae01/IoT_FinalProject/assets/88194064/8f054e5a-db62-4b70-92c9-7e72186ea0de)
 
-12v LED바를 사육장 뚜껑에 부착
+**12v LED바를 사육장 뚜껑에 부착**
 
 ![IMG_0066](https://github.com/SungJae01/IoT_FinalProject/assets/88194064/acf89e9a-b1a5-4311-bb04-974dd386d134)
 
 
-외부전원을 사용하여 12v PTC 히터와 12v 팬모터를 작동시키기 위한 TIP 120 트랜지스터 회로
+**외부전원을 사용하여 12v PTC 히터와 12v 팬모터를 작동시키기 위한 TIP 120 트랜지스터 회로**
 
 ![IMG_0059](https://github.com/SungJae01/IoT_FinalProject/assets/88194064/cc8181bf-c862-4afd-aa95-a8609020c1c0)
 
 
-모바일 설계
+**모바일 설계**
 
 <img width="1630" alt="스크린샷 2024-06-12 오전 1 16 09" src="https://github.com/SungJae01/IoT_FinalProject/assets/88194064/c7c4ab0a-bd05-4c0e-bff7-1f70c886fa88">
 
 <img width="1630" alt="스크린샷 2024-06-12 오전 1 16 37" src="https://github.com/SungJae01/IoT_FinalProject/assets/88194064/04de3156-7235-4b19-9872-6a8b81c178ad">
 
 
-완성 사진
+**완성 사진**
 
 ![5441C64E-C7ED-4B24-B123-20AC5694A700](https://github.com/SungJae01/IoT_FinalProject/assets/88194064/abb898d6-27f2-4248-9f3f-5be366174f90)
+
+##**시현 영상 링크**
+
+https://youtu.be/xIIneYoTvyk?si=R9eSZCuWhs-XnCay
