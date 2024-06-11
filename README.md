@@ -27,8 +27,7 @@
 | H/W      | 사육장 환경을 조절 및 관리           | UVB램프, 초음파 가습기, 팬, LED조명을 사용하여 조절 및 관리  |
 | S/W      | 실시간 모니터링 및 환경을 조성, 관리 | 스마트폰 어플을 사용하여 사육장을 실시간 모니터링 및 환경을 조성, 관리 |
 
-
-![회로도](https://github.com/SungJae01/IoT_FinalProject/assets/88194064/a5a706d7-c1c2-4225-81e9-588f32d2abf2)
+![img](https://lh7-us.googleusercontent.com/dcxT2qMCgm3q0nR3fmT47C3lHsaEdL-Rx1bPsmoYjlAnyGroXoT0Ea9W22XrNy-Jnoocv5JI9b21UynbrZlnHfAfnARUGO3uHmRDB6OnEpa5Y6L1vcA0NEZzEjT39BzwzIpne6BYb5G39lZBW0CpQA)
 
  **3. 최소 기능 제품/서비스** 
 
@@ -37,12 +36,13 @@
 | **품목**                                              | **활용계획**                                                 |
 | ----------------------------------------------------- | ------------------------------------------------------------ |
 | 온습도센서 [DHT11]                                    | 사육 환경에 필요한 온도/습도 정보를 얻음                     |
-| MLDU01A_150mm                                         | 가습기 모듈과 토양 수분 공급에 사용되는 물탱크의 양을 체크                    |
+| MLDU01A_150mm                                         | 가습기 모듈에 사용되는 물탱크의 양을 체크                    |
 | 가습기 모듈 DIY Micro USB 용 (모듈+분무) [SZH-HUM002] | 초음파 분무 원리를 이용해 사육장 내부 습도 조절              |
 | 5V 3528 Flexible LED 5M/1롤 [SZH-LD304]               | 사육장 내부 조명을 구성                                      |
 | 4010 DC12V 6,000RPM 팬모터 [SZH-GNP512]               | 온습도 조절을 위한 팬                                        |
-| TIP120 트랜지스터                                     | 팬 모터 속도 조절과 ,히터 온도 조절을 위한 PWM 구성                            |
+| TIP120 트랜지스터                                     | 팬 모터 속도 조절을 위한 PWM 구성                            |
 | Arduino UNO R4 WiFi                                   | 여러가지 센서의 값을 받고, 그 값을 WiFi를 사용하여 앱에 전달앱에서 전달한 값을 엑츄에이터에 전달하여 작동 |
+| UVB 램프                                              | 사육장 환경을 알맞게 조절                                    |
 | 어플리케이션                                          | 센서를 통해 얻은 정보를 표시 및 각종 엑츄에이터 작동 및 조절 |
 
  나. MVP 예상 도면 설명
@@ -50,3 +50,11 @@
 | **예상 결과물 이미지**                                       | **설명**                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **![img](https://lh7-us.googleusercontent.com/Z_GPFIbAl1aMCMzNk-AL9APH2Xxlr5tmEcq--NfPC3kCZ7DAh86wY-EfWNJFT6XNdN9hRxXzblZuj8KVj8FPq5Awph6HJn4zH9mIbk05ajs1hRxyIi_d3lvje7fHH2QHsUkCASKc_2r7CqgpdOi93g)** | 파충류들을 위한 스마트 사육장 이다. 어플리케이션으로 설정을 해서, 조명을 On/Off를 할 수 있으며, 온도 조절도 가능하다. 파충류들의 생활 공간에 필요한 습도를 위해서 설정된 습도로 조절을 해주고, 물을 저장해둔 공간에 물이 부족하다면 어플리케이션에 알림기능을 통해서 물을 추가적으로 저장하도록 한다. |
+
+
+
+2024.06.11 (화) 작품 완성
+
+완성 사진
+
+![5441C64E-C7ED-4B24-B123-20AC5694A700](/Users/seongjae/Downloads/5441C64E-C7ED-4B24-B123-20AC5694A700.JPG)
