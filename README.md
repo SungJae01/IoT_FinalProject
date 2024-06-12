@@ -136,6 +136,7 @@
 
 <img width="1630" alt="스크린샷 2024-06-12 오전 1 16 37" src="https://github.com/SungJae01/IoT_FinalProject/assets/88194064/04de3156-7235-4b19-9872-6a8b81c178ad">
 
+https://github.com/RnaYuta/IoTproject
 
 **완성 사진**
 
