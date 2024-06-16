@@ -8,8 +8,7 @@
 
 ## 넌 내꺼야! 나만의 비바리움 스마트 사육장 [2024-05-10 ~ 2024-06-11]
 
-![스크린샷 2024-06-17 오전 1 14 02](https://github.com/SungJae01/IoT_FinalProject/assets/88194064/cbea5030-0fad-4bd4-9680-94df59a2643d)
-
+![스크린샷 2024-06-17 오전 1 17 14](https://github.com/SungJae01/IoT_FinalProject/assets/88194064/8d84736a-0203-4989-ad1a-c6b72e446aa9)
 
 **1. 프로젝트 개요**
 
