@@ -180,7 +180,7 @@ void setup() {
 }
 
 void loop() {
-    //  LED가 켜지는 동작을 하게 합니다
+    
     authHandler();
     Database.loop();
     RTC.getTime(currentTime);
@@ -195,12 +195,13 @@ void loop() {
       // Print error message based on the error code.
       Serial.println(DHT11::getErrorString(result));
     }
-    // 1. 아두이노 실행시 센서값, 시간값 받아오기
+    
     setSoilMoisture(soilMoisture);
     setWaterTankValue();
     soilMoisture = getSoilMoisture();
     water_gauge = getWaterTankValue();
 
+    // 모바일에서 설정한 환경값을 함수를 통해 읽어와 펜모터, 히터 작동
     if(temperature > getTargetTemperature() || humidity > getTargetHumidity() ){
       onFan();
     } else {
@@ -212,7 +213,8 @@ void loop() {
     } else{
       offHeater();
     }
-
+    
+    // 아두이노에서 측정하는 센서값을 시리얼 모니터에 출력
     Serial.print("물컵 물의 양 : ");
     Serial.println(waterLevel);
     Serial.print("온도 : ");
@@ -502,9 +504,8 @@ void offHeater(){
     printError(aClient.lastError().code(), aClient.lastError().message());
 }
 
+// 가습기 켜기
 // void onHumidifier(){
-
-//   // 가습기 켜기
 //   digitalWrite(HUMIDIFIER, HIGH);
 //   status = Database.set<bool>(aClient, "/current_humidifier", true);
 //   if (status)
@@ -513,9 +514,8 @@ void offHeater(){
 //     printError(aClient.lastError().code(), aClient.lastError().message());
 // }
 
+// 가습기 끄기
 // void offHumidifier(){
-
-//   // 가습기 켜기
 //   digitalWrite(HUMIDIFIER, LOW);
 //   status = Database.set<bool>(aClient, "/current_humidifier", false);
 //   if (status)
@@ -575,10 +575,6 @@ void getCurTime(String timeSTR,String* d_w,int* d_mn, String* mn,int* h,int* m,i
   *y = timeSTR.substring(20,24).toInt();
 
 }
-
-
-const char *WeekDays[8] = {" ", "(일)", "(월)", "(화)", "(수)", "(목)", "(금)", "(토)"};
-
 
 // 와이파이, 데이터베이스 연결 및 에러 코드 출력 함수
 void connectWifi(){
