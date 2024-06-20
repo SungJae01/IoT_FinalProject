@@ -230,7 +230,7 @@ void loop() {
     }
     // 토양이 건조해지면 워터펌프2 작동
     if(soilMoisture < 760){
-      //onWaterPump2();
+      onWaterPump2();
     }
 
     // 모바일 설정 시간에 맞춰 LED 켜고 끄기
